@@ -96,3 +96,15 @@
 
 </body>
 </html>
+
+// script.js
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.getElementById('menu-toggle'); // Get the menu toggle button
+    const mainNav = document.getElementById('main-nav'); // Get the main navigation menu
+
+    // Function to toggle the visibility of the main navigation menu
+    menuToggle.addEventListener('click', function() {
+        mainNav.classList.toggle('show'); // Toggle the 'show' class on the main navigation menu
+    });
+});
