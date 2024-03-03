@@ -27,9 +27,72 @@
             <p>This is the home page of my website.</p>
         </section>
     </main>
+
+</body>
+</html>
+
+<!-- about.html (About Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS stylesheet -->
+    <script src="script.js" defer></script> <!-- Link to external JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <button id="menu-toggle">Menu</button> <!-- Button for toggling menu on small screens -->
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
-    <footer>
-        <p>&copy; 2024 Your Name</p> <!-- Copyright notice -->
-    </footer>
+    <main>
+        <section>
+            <h2>About Page</h2>
+            <p>This is the about page of my website.</p>
+        </section>
+    </main>
+    
+</body>
+</html>
+
+<!-- contact.html (Contact Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS stylesheet -->
+    <script src="script.js" defer></script> <!-- Link to external JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <button id="menu-toggle">Menu</button> <!-- Button for toggling menu on small screens -->
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Contact Page</h2>
+            <p>This is the contact page of my website.</p>
+        </section>
+    </main>
+
 </body>
 </html>
